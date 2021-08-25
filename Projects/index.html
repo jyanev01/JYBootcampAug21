@@ -10,12 +10,10 @@
         <!-- navigation--> 
         <header>
             <h1>
-                <a href="/">
-                RUN BUDDY
-                </a>
+                <a href="/">RUN BUDDY</a>
             </h1>
             <nav>
-                <!-- Unordered list elemtn -->
+                <!-- Unordered list element -->
                 <ul>
                  <!-- List item element-->
                      <li>
@@ -23,7 +21,7 @@
                         <a href="what-we-do">What We Do</a>
                     </li>
                     <li>
-                        <a href="#what-you-do">What You DO</a>
+                        <a href="#what-you-do">What You Do</a>
                     </li>
                     <li>
                         <a href="#reach-out">Reach Out</a>
@@ -52,6 +50,7 @@
 
                     <label for="phone">Enter a telephone number:</label>
                     <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+    <!--Radio Button- Survey worked out with trainer?-->                
                     <p>
                         Have you worked out with a trainer before?
                         <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -59,10 +58,9 @@
                         <input type="radio" name="trainer-conform" id="trainer-no" />
                         <label for="trainer-no">No</label>
                     </p>
+    <!--Radio Button Legal Acknowledgement-->                
                     <p>
-                        <label for="checkbox">
-                            I acknowledge that I am at least 18 years of age
-                        </label>
+                        <label for="checkbox">I acknowledge that I am at least 18 years of age</label>
                         <input type="checkbox" name="age-confirm" id="checkbox" />       
                     </p>
                     <button type="submit">Get Running! </button>
@@ -79,8 +77,20 @@
             <h2>What You Do</h2>
         </section>    
     <!--"meet the trainers" section-->
-        <section>
-            <h2>Meet The Trainers</h2>
+        <section id="your-trainers" class="trainers">
+            <h2 class="section-title primary-border">
+                Meet The Trainers
+            </h2>
+    <article class="trainer">
+        <img src="./assets/images/trainer-1.jpg" alt="arron Stepehns in his workout clothes, ready to pump iron" />
+        <div class="trainer-bio">
+            <h3>Arron Stephens</h3>
+            <h4>Speed / Strength</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, commodi voluptatem distinctio placeat eum odit. 
+            Fugit nobis sapiente quibusdam labore corrupti temporibus, illum commodi error optio harum qui expedita repellendus!
+            </p>
+        </div>
+    </article>
         </section>
     <!--"reach out" section-->
         <section>
