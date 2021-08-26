@@ -9,6 +9,7 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
     }
+
 /* apply style to <header> */
 header{
     padding: 20px 35px;
@@ -69,13 +70,14 @@ section {
 
 /*Hero Style Start*/
 .hero{
-    background-image: url("./assets/images/hero-bg.jpg");
+    background-image: url('../images/hero-bg.jpg');
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
 /* Hero Style End */
+
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
@@ -211,7 +213,7 @@ section {
     margin-bottom: 25px;
 }
 
-.trainer bio p {
+.trainer-bio p {
     font-size: 17px;
     line-height: 1.3;
 }
