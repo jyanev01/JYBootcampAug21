@@ -179,7 +179,7 @@ section {
 }
 
 /* trainer 1 through 3 */
-.trainers{
+.trainers {
     text-align: center;
 }
 
@@ -196,8 +196,8 @@ section {
     float: left;
 }
 
-.tainer-bio {
-    padding: 35x;
+.trainer-bio {
+    padding: 35px;
     float: left;
     width: 65%
 }
