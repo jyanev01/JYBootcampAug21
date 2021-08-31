@@ -1,7 +1,7 @@
 # JYBootcampAug21
 Repo for coding bootcamp
 
-# Run Buddy
+# Run Buddy Inc.
 
 ## Purpose
 A website that offers fitness training services.
