@@ -10,26 +10,27 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     }
 
+    /* Header / NAV Bar Styles Start */
 /* apply style to <header> */
 header{
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
 }
 header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
-    display: inline;
 }
+
 header a {
     text-decoration: none;
     color: #fce138;
 }
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -46,6 +47,10 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
+
+/* Headers End */
+
+/* Footer Styles Start*/
 
 footer {
     background-color: #fce138;
@@ -70,7 +75,9 @@ footer div{
 footer a {
     color: #024e76;
 }
+/* End Footer Styles */
 
+/* All section styles */
 section {
     padding: 60px
 }
@@ -86,7 +93,7 @@ section {
     }
 
 .hero-cta {
-    width: 35%
+    width: 35%;
     text-align: right;
     margin: 3.5%;
     color: #fff;
@@ -99,7 +106,7 @@ section {
     font-size: 55px;
     color: #fce138;
 }
-/* Hero Style End */
+
 
 .hero-form {
     border: 3px solid #024e76;
@@ -139,10 +146,31 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+/* Hero Styles Ending */
+
+/* Section Title Styles Start */
+
+.section-title {
+    font-size: 55px;
+    border-bottom: 3px solid;
+    color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+]
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+/* Section Title Styles End */
 
 /* What-We-Do Section */
-.intro {
-}
 
 .intro p {
     line-height: 1.7;
@@ -169,24 +197,30 @@ section {
     justify-content: space-between;
 }
 
-/*.steps div {
-    margin-bottom: 80px;
-}*/
-
-/*.steps img {
-    width: 15%;
-    margin: 10px 0;
-}*/
-
 .step h3 {
-    color:#024e76;
+    color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
     flex: 1 30%;
 }
 
 .step-info {
     flex: 2 70%;
+    displaY: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text {
+    flex: 12;
 }
 
 .step-text p{
@@ -200,42 +234,9 @@ section {
     color: #024e76;
 }
 
-.step-img {
-    flex: 1 12%;
-    margin-right: 20px;
-}
+/* What you do styles end */
 
-.step-text {
-    flex: 12;
-}
-
-.step-img img {
-    max-width: 100%;
-}
-
-/*.steps span {
-    font-size: 38px;
-}*/
-
-.section-title {
-    font-size: 55px;
-    color:#024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-/* trainer 1 through 3 */
+/* trainer 1 through 3  Start */
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -245,10 +246,10 @@ section {
 }
 
 .trainer {
-    margin: 0 auto 20px auto;
+    margin: 20px;
+    flex: 1;
     background: #024e76;
     color: #fce138;
-    flex: 1;
 }
 
 .trainer img {
@@ -273,14 +274,7 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-     text-align: right;
-}
+/* Trainer style end */
 
 /* Reach out section*/
 
@@ -298,16 +292,17 @@ section {
     flex-wrap: wrap;
 }
 
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
 .contact-info iframe {
     height: 400px;
 }
 
 .contact-info div{
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
+    color: white;
 }
 
 .contact-info h3 {
@@ -321,10 +316,6 @@ section {
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
-}
-
-.contact-info a {
-    color:#fce138;
 }
 
 .contact-form input,
@@ -349,7 +340,20 @@ section {
     font-size: 16px;
 }
 
+.contact-info a {
+    color: #fce138;
+}
+
 /* Reach out End */
+
+/* Utilities */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
 
 .flex-row {
     display: flex;
