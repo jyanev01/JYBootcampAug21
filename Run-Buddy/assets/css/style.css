@@ -54,7 +54,7 @@
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width:9 768px) {
+@media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
     }
