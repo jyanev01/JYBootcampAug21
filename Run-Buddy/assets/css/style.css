@@ -4,13 +4,11 @@
     --tertiary-color: #39a6b2;
 }
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
 /* more on this crazy alphanumerical value in a minute! */
